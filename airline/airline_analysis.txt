@@ -1,0 +1,24 @@
+ [1] "Month"         "Passengers"    "Jan"           "Feb"           "Mar"           "Apr"           "May"          
+ [8] "Jun"           "Jul"           "Aug"           "Sep"           "Oct"           "Nov"           "Dec"          
+[15] "t"             "tsquare"       "logPassengers"
+
+
+       Month Passengers Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec t tsquare logPassengers
+1 1995-01-01        112   1   0   0   0   0   0   0   0   0   0   0   0 1       1      4.718499
+2 1995-02-01        118   0   1   0   0   0   0   0   0   0   0   0   0 2       4      4.770685
+3 1995-03-01        132   0   0   1   0   0   0   0   0   0   0   0   0 3       9      4.882802
+4 1995-04-01        129   0   0   0   1   0   0   0   0   0   0   0   0 4      16      4.859812
+5 1995-05-01        121   0   0   0   0   1   0   0   0   0   0   0   0 5      25      4.795791
+6 1995-06-01        135   0   0   0   0   0   1   0   0   0   0   0   0 6      36      4.905275
+
+
+> total_res
+                    Model     Error
+1             rmse_linear 138.86918
+2               rmse_expo  46.05736
+3               rmse_quad  48.05189
+4            rmse_sea_add 132.81978
+5       rmse_add_sea_quad 133.17933
+6          rmse_multi_sea 140.06320
+7 rmse_add_sea_quad_final  13.48438
+
